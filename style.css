@@ -30,7 +30,9 @@ html, body {
 }
 
 .nav a:hover {
-    background-color: rgba(255, 255, 255, 0.4)
+    /* background-color: rgba(255, 255, 255, 0.4) */
+    scale: 1.2;
+    text-decoration: underline;
 }
 
 .main-nav {
@@ -63,6 +65,10 @@ html, body {
     margin: 1em;
 }
 
+.content-section p {
+    font-size: 1.4em;
+}
+
 .main-footer {
     background-color: rgb(69, 34, 183);
     padding: .25em 0;
@@ -79,9 +85,43 @@ html, body {
 }
 
 .dark-text {
-    color: rgb(10, 10, 10);;
+    color: rgb(10, 10, 10);
 }
 
 .normal-text {
     font-size: 1.4em;
+}
+
+.section-title {
+    font-size: 2em;
+    padding: .25em 0;
+}
+
+.game-button {
+    background-color: rgb(69, 34, 183);
+    color: rgb(10, 10, 10);
+    font-size: 1.5em;
+    /*border-radius: 5%; */
+}
+
+.break-line {
+    border-color: rgb(69, 34, 183);
+}
+
+.default-table {
+    text-align: center;
+    border: rgb(69, 34, 183);
+    font-size: 1.6em;
+}
+
+.default-table th {
+    width: 10em;
+}
+
+.default-table tr {
+    height: 1.5em;
+}
+
+.default-table a {
+    text-decoration: none;
 }
