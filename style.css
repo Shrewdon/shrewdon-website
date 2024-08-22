@@ -7,7 +7,7 @@
 html, body {
     margin: 0;
     padding: 0;
-    background-color: rgb(10, 10, 10);
+    background-color: rgb(12, 12, 12);
 }
 
 .container {
@@ -85,7 +85,7 @@ html, body {
 }
 
 .dark-text {
-    color: rgb(10, 10, 10);
+    color: rgb(12, 12, 12);
 }
 
 .normal-text {
@@ -99,8 +99,9 @@ html, body {
 
 .game-button {
     background-color: rgb(69, 34, 183);
-    color: rgb(10, 10, 10);
+    color: rgb(12, 12, 12);
     font-size: 1.5em;
+    border: none;
     /*border-radius: 5%; */
 }
 
