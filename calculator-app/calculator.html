@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Calculator - Shrewdon.com</title>
+        <link rel="stylesheet" href="calculator-styles.css">
+        
+    </head>
+
+    <body>
+        <!-- link back to home for shrewdon.com-->
+        <div>
+            <a href="../projects.html">Back</a>
+        </div>
+        
+        <div class="center-container">
+            <div class="calc-container">
+                <textarea id="display" class="calc-display" readonly></textarea>
+                <!-- <input id="display" class="calc-display" readonly> -->
+                <div class="btns-container main-btns-container">
+                    <button onclick="addToDisplay('7')">7</button>
+                    <button onclick="addToDisplay('8')">8</button>
+                    <button onclick="addToDisplay('9')" class="main-btn">9</button>
+                    <button onclick="addToDisplay('+')" class="operator-btn">+</button>
+                    <button onclick="addToDisplay('4')">4</button>
+                    <button onclick="addToDisplay('5')">5</button>
+                    <button onclick="addToDisplay('6')">6</button>
+                    <button onclick="addToDisplay('-')" class="operator-btn">-</button>
+                    <button onclick="addToDisplay('1')">1</button>
+                    <button onclick="addToDisplay('2')">2</button>
+                    <button onclick="addToDisplay('3')">3</button>
+                    <button onclick="addToDisplay('*')" class="operator-btn">x</button>
+                    <button onclick="addToDisplay('0')">0</button>
+                    <button onclick="addToDisplay('.')">.</button>
+                    <button onclick="doAFunny()">?</button>
+                    <button onclick="addToDisplay('/')" class="operator-btn">/</button>
+                </div>
+                <div class="btns-container operator-btns-container">
+                    <button onclick="clearDisplay()" class="operator-btn big-btn">Clear</button>
+                    <button onclick="calculate()" class="operator-btn big-btn">=</button>
+                </div>
+            </div>
+        </div>
+        
+        <script src="calculator-script.js"></script>
+    </body>
+</html>

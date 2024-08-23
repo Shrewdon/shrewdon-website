@@ -1,0 +1,84 @@
+body {
+    background-color: hsl(0, 0%, 90%);
+}
+
+.center-container {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.calc-container {
+    font-family: 'Times New Roman', sans-serif;
+    background-color: hsl(0, 0%, 10%);
+    border-radius: 25px;
+    max-width: 500px;
+    overflow: hidden;
+}
+
+.calc-display {
+    width: 100%;
+    padding: 20px;
+    font-size: 5em;
+    text-align: left;
+    border: none;
+    background-color: hsl(0, 0%, 12%);
+    color: white;
+
+    resize: none;
+}
+
+.btns-container {
+    display: grid;
+    gap: 10px; /* row gap */
+}
+
+.main-btns-container {
+    padding: 25px;
+    /* fr stands for fractional unit, and the 1fr part is used to evenly space them */
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.operator-btns-container {
+    padding: 0 25px;
+    padding-bottom: 25px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.btns-container button {
+    width: 100px;
+    height: 100px;
+    border-radius: 25px;
+    border: none;
+    color: white;
+    font-size: 3em;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: hsl(0, 0%, 20%);
+}
+
+.btns-container button:hover {
+    background-color: hsl(0, 0%, 30%);
+}
+
+.btns-container button:active {
+    background-color: hsl(0, 0%, 40%);
+}
+
+.btns-container .operator-btn {
+    background-color: hsl(254, 69%, 43%);
+}
+
+.btns-container .operator-btn:hover {
+    background-color: hsl(254, 69%, 53%);
+}
+
+.btns-container .operator-btn:active {
+    background-color: hsl(254, 69%, 63%);
+}
+
+.btns-container .big-btn {
+    width: 220px;
+}
