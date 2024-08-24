@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(0, 0%, 90%);
+}
+
+.center-container {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gameboard {
+    padding: 2vw;
+    border-radius: 3vw;
+    background-color: black;
+}
+
+.gameboard button {
+    color: white;
+    font-size: 4em;
+    font-weight: bold;
+    background-color: hsl(0, 0%, 60%);
+    border: none;
+    width: 13vw;
+    height: 13vw;
+    border-radius: 1vw;
+}
+
+.gameboard button:hover {
+    background-color: hsl(0, 0%, 70%);
+}
+
+.gameboard button:active {
+    background-color: hsl(0, 0%, 80%);
+}
+
+.reset-btn {
+    color: white;
+    border: none;
+    border-radius: 1.5vw;
+    padding: 1vw;
+    margin-bottom: 2vh;
+    background-color: hsl(0, 100%, 50%);
+}
+
+.reset-btn:hover {
+    background-color: hsl(0, 100%, 40%);
+}
+
+.reset-btn:active {
+    background-color: hsl(0, 100%, 30%);
+}

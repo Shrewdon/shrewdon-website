@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tic Tac Toe</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <h1>Tic Tac Toe</h1>
+        <h3 id="turn-info">Player's Turn: X</h3>
+        
+
+        <div class="center-container">
+            <button class="reset-btn" onclick="reset()">Reset</button>
+        </div>
+
+        <div class="center-container">
+            <table class="gameboard">
+                <!-- each needs an invisible starting character or it messes with formating \o/-->
+                <tr>
+                    <td> 
+                        <button id="btn-1" onclick="selectSquare('btn-1')">‎ </button>
+                        <button id="btn-2" onclick="selectSquare('btn-2')">‎ </button>
+                        <button id="btn-3" onclick="selectSquare('btn-3')">‎ </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button id="btn-4" onclick="selectSquare('btn-4')">‎ </button>
+                        <button id="btn-5" onclick="selectSquare('btn-5')">‎ </button>
+                        <button id="btn-6" onclick="selectSquare('btn-6')">‎ </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button id="btn-7" onclick="selectSquare('btn-7')">‎ </button>
+                        <button id="btn-8" onclick="selectSquare('btn-8')">‎ </button>
+                        <button id="btn-9" onclick="selectSquare('btn-9')">‎ </button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <script src="tic-tac-toe-script.js"></script>
+    </body>
+</html>
