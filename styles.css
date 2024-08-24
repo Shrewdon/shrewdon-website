@@ -102,8 +102,9 @@ html, body {
     color: rgb(12, 12, 12);
     font-size: 1.5em;
     border: none;
-    width: 4em;
-    height: 2em;
+    padding: .5em;
+    /*width: 4em;
+    height: 2em;*/
     cursor: pointer;
 }
 
