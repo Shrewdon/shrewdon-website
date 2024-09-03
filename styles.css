@@ -130,3 +130,8 @@ html, body {
     text-decoration: none;
 }
 
+.center {
+    display: flex;
+    justify-content: center;
+    margin: 10vh 0;
+}
