@@ -18,17 +18,28 @@
                 <li><a href="/emulators/ATARI2600/atari2600-home.html">ATARI 2600</a></li>
             </ul>
         </nav>
-        <h1 class="website-title">Nintendo Entertainment System</h1>
     </header>
 
     <div class="container content-section">
-        <a href="nes-contra.html"><h3>Contra</h3></a>
-        <a href="nes-dragonwarrior.html"><h3>Dragon Warrior</h3></a>
-        <a href="nes-joust.html"><h3>Joust</h3></a>
-        <a href="nes-metroid.html"><h3>Metroid</h3></a>
-        <a href="nes-ninjagaiden.html"><h3>Ninja Gaiden</h3></a>
-        <a href="nes-tetris.html"><h3>Tetris</h3></a>
+        <h1 class="website-title">Joust</h1>
     </div>
+
+    <div class="center">
+        <div style="width:640px;height:480px;max-width:100%">
+            <div id="game"></div>
+        </div>
+        <script type="text/javascript">
+              EJS_player = '#game';
+              EJS_biosUrl = 'roms/disksys.rom'; // Url to Famicom Disk System bios
+              EJS_gameUrl = 'roms/Joust (USA).zip'; // Url to Game rom
+              EJS_core = 'nes'; // Optional core: mesen, nestopia
+              EJS_lightgun = false; // Lightgun
+        </script>
+        <script src="https://www.emulatorjs.com/loader.js"></script>
+
+    </div>
+       
+
 </body>
 
 </html>
